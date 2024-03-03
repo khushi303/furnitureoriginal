@@ -40,6 +40,18 @@
     left: 0;
 }
 
+.overflow_hidden1 {
+    overflow-x: hidden !important;
+}
+
+.menu-line {
+    transition: all .3s linear;
+}
+
+.menu-line:hover {
+    -webkit-text-stroke: .5 white !important;
+}
+
 .mw_908 {
     max-width: 908px;
 }
@@ -120,6 +132,7 @@
 .shop_card {
     padding: 15px 12px 27px 17px;
     max-width: 350px !important;
+    cursor: pointer;
 }
 
 .shopcard_content {
@@ -287,36 +300,43 @@
 .img1_shadow {
     filter: drop-shadow(0px 50px 50px 0px #C3B0A94D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(195, 176, 169, 0.3)) !important;
+    cursor: pointer;
 }
 
 .img2_shadow {
     filter: drop-shadow(0px 50px 50px 0px #7644234D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(118, 68, 35, 0.3)) !important;
+    cursor: pointer;
 }
 
 .img3_shadow {
     filter: drop-shadow(0px 50px 50px 0px #31ADEA4D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(49, 173, 234, 0.3)) !important;
+    cursor: pointer;
 }
 
 .img4_shadow {
     filter: drop-shadow(0px 50px 50px 0px #0000000A) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.04)) !important;
+    cursor: pointer;
 }
 
 .img5_shadow {
     filter: drop-shadow(0px 50px 50px 0px #8379544D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(131, 121, 84, 0.3)) !important;
+    cursor: pointer;
 }
 
 .img6_shadow {
     filter: drop-shadow(0px 50px 50px 0px #2B2B2B4D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(43, 43, 43, 0.3)) !important;
+    cursor: pointer;
 }
 
 .img7_shadow {
     filter: drop-shadow(0px 50px 50px 0px #6E34254D) !important;
     -webkit-filter: drop-shadow(12px 12px 25px rgba(110, 52, 37, 0.3)) !important;
+    cursor: pointer;
 }
 
 /* -------------footer-------- */
@@ -637,7 +657,7 @@
     }
 
     .cross .line-1 {
-        transform: rotate(50deg) translate(14px, 13px);
+        transform: rotate(50deg) translate(13px, 12px);
     }
 
     .cross .line-2 {
@@ -696,7 +716,7 @@
     border-radius: 50px;
     box-shadow: 0px 5px 16px #ffffff;
     -webkit-animation: mover 3000ms infinite ease-in-out !important;
-    animation: mover 3000ms infinite ease-in-out !important;
+    animation: mover 2000ms infinite ease-in-out !important;
 }
 
 .mw_25 {
