@@ -406,6 +406,11 @@
     color: #BD7D41 !important;
 }
 
+.my_slider .slick-track {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 @media (min-width:576px) {
     .mw_logo {
         max-width: 61px !important;
@@ -561,7 +566,7 @@
 
     .deal_padding {
         padding-top: 45px;
-        padding-bottom: 138px;
+        padding-bottom: 108px;
     }
 
     .pt_lg_87 {
@@ -593,7 +598,7 @@
     }
 
     .shop_slider {
-        width: 920px !important;
+        width: 1000px !important;
         padding-top: 30px;
     }
 
@@ -601,6 +606,10 @@
         top: 0;
         width: 600px;
         height: 417px;
+    }
+
+    .my_slider {
+        max-width: 1200px !important;
     }
 
     .position_absolute {
@@ -618,6 +627,14 @@
 
     .pl_xl_107 {
         padding-left: 107px;
+    }
+
+    .dealarrow1 {
+        left: 25px;
+    }
+
+    .dealarrow2 {
+        right: 25px;
     }
 }
 

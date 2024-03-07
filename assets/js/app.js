@@ -116,7 +116,7 @@ $('.slider-nav').slick({
     centerPadding: '0px',
     focusOnSelect: true,
     autoplay: true,
-    autoplaySpeed: 1800,
+    autoplaySpeed: 4000,
     responsive: [
         {
             breakpoint: 1200,
